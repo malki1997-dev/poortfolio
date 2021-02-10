@@ -1,0 +1,1065 @@
+
+
+body
+{
+	background-color: #CCFFCC;
+}
+
+
+header
+{
+
+	display:flex;
+	justify-content: space-around;
+	width: 1440PX;
+	height: 4.5em;
+	background-color:#8CE3C4;
+	 padding-top: 1em;
+
+}
+header a {
+		
+		font-size: 20px;
+	    text-decoration: none;
+	   	height: 1.5em;
+	  color:white;
+}
+
+header a:hover
+{
+	color:black;
+	background-color: #6BD7B0;
+}
+
+
+
+.lk
+{
+	margin-top: 20px;
+    
+}
+
+
+ .links {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+       
+
+    }
+    .links a{
+           text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    
+       
+        height: 40px;
+        width: 40px;
+        border-radius: 10px;
+        border: 2px solid rgb(27, 12, 243);
+        color: #8CE3C4;
+        background-color: black;
+        border-style: none;
+             }
+
+
+footer
+{
+	width: 1440PX;
+	height: 9em;
+	background-color:#8CE3C4;	
+	padding-top: 10px;
+	margin-top: 42px;
+
+}
+
+.div-1-footer,.div-2-footer
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+/***********************************INDEX****************************************************/
+
+
+
+ img{
+	margin-top: 0px;
+	width: 1440px;
+	height: 27em;
+}
+
+ .button-cv
+ {
+ 	width: 115px;
+ 	height: 33px;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	margin-left: 42em;
+ 	margin-top: 1.5em;
+    font-weight: bold;
+    background-color: #00FFCC;
+    color: #333333;
+    border-radius: 5px;
+ }
+
+
+/***********************************PROJECT****************************************/
+
+.card
+{
+	width: 20em;
+	height: 16em;
+	margin-left: 550px;
+
+
+}
+
+
+
+.div-1-
+{
+	font-size: 25px;
+	margin-top: 20px;
+	margin-left: 670px;
+	font-family: "Baskerville Old Face";
+	color: #0000CC;
+}
+
+.div-2-
+{
+	font-size: 25px;
+margin-left: 670px;
+margin-bottom: 30px;
+font-family: "Britannic";
+color: #0000CC;
+}
+
+
+.contener
+{
+
+	display: grid;
+	grid-template-columns: 500px 110px 500px 110px ;
+	justify-content: center;
+
+}
+
+.image-projet,.image-projet-2
+{
+	width: 500px;
+	height: 200px;
+}
+
+.div2-contener,.div4-contener
+{
+	height: 200px;
+	background-color:#FFFF66;
+    font-size: 20px;
+    color: #0000FF;
+
+}
+
+.div2-contener
+{
+	margin-right: 10px;
+	
+}
+
+button
+{
+	margin-left: 4px;
+	border-radius: 5px;
+}
+
+
+.contener-2
+{
+
+margin-top: 15px;
+	display: grid;
+	grid-template-columns: 500px 110px ;
+	justify-content: center;
+
+
+}
+
+.div1-contener-2
+{
+	height: 200px;
+	background-color:#FFFF66;
+    font-size: 20px;
+    color: #0000FF;
+}
+
+
+.div4-contener a:hover button,.div2-contener a:hover button,.div1-contener-2 a:hover button
+{
+
+background-color: pink;
+}
+
+
+/***********************************SKIIILLS****************************************/
+
+#div-skill
+{
+
+text-align: center;
+font-size: 24px;
+margin-top: 25px;
+
+}
+
+.contener-skills-1
+{
+	margin-left: 100px;
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: 500px 500px 500px;
+}
+
+.skil:nth-child(10),.skil:last-child
+{
+	
+	margin-left: 270px;
+}
+
+
+.icone2
+{
+	position: relative;
+	top: 5px;
+	width:24px;
+	height:32px; 
+	margin-right: 5px;
+}
+
+
+.skil
+{
+	width: 250px;
+	font-size: 36px;
+	margin-bottom: 60px;
+    color: #006633;
+    font-style:italic;
+    font-weight: bold;
+     font-family: "Times New Roman";
+}
+
+h3
+{
+color: blue;
+display: inline-flex;
+text-decoration: underline;
+margin-left: 300px;
+}
+
+.about-me-l1
+{
+	margin-left: 10px;
+}
+.about-me-l2
+{
+	position: relative;
+	bottom:17px;
+	margin-left: 425px;
+
+}
+.about-me-l3
+{
+	margin-left: 450px;
+	position: relative;
+	bottom:15px;
+}
+.about-me
+{
+	background-color: #99FF99;
+	border: solid 0.5px;
+    
+}
+
+
+
+
+
+
+
+/***********************************CONTACT****************************************/
+
+.div-contacter
+{
+	text-align: center;
+	font-size: 24px;
+	margin-top: 25px;
+}
+
+
+/*style=""*/
+
+.labell
+{
+	display: inline-block;
+	width: 100px;
+	margin-left: 270px;
+
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+
+.labell-msg
+{
+	width: 100px;
+}
+
+
+.msg
+{
+	display:flex;
+	justify-content: center;
+	margin-top: 50px;
+
+}
+
+
+.inpt
+{
+	margin-right: 50px;
+}
+
+
+textarea
+{
+	margin-bottom: 114px;
+}
+
+
+
+
+/**********************************************************************************/
+/***********************************MOBIILE****************************************/
+/**********************************************************************************/
+
+
+@media (max-width: 375px)
+{
+
+
+
+
+header
+{
+
+	display:flex;
+	justify-content: space-around;
+	width: 360px;
+	height: 6em;
+	background-color:#8CE3C4;
+	 padding-top: 5px;
+
+}
+header a {
+		
+		font-size: 20px;
+	    text-decoration: none;
+	   	height: 1em;
+	  color:white;
+	  margin:auto;
+}
+
+header a:hover
+{
+	color:blue;
+}
+
+ 
+
+/*************************FOOOTER*****************************************/
+
+
+
+ .links {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+       
+
+    }
+    .links a{
+           text-decoration: none;
+        display: inline-flex;
+        height: 35px;
+        width: 30px;
+        border-radius: 10px;
+        color: #8CE3C4;
+        background-color: black;
+        border-style: none;
+             }
+
+
+footer
+{
+	width: 360px;
+	height: 110px;
+	background-color:#8CE3C4;	
+	padding-top: 10px;
+	margin-top: 42px;
+
+}
+
+.div-1-footer,.div-2-footer
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+
+/***********************************INDEX****************************************/
+
+
+img{
+
+	width: 360px;
+	height: 450px;
+}
+
+ .button-cv
+ {
+ 	width: 100px;
+ 	height: 30px;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	margin-left: 120px;
+ 	margin-top: 20px;
+    font-weight: bold;
+    background-color: #00FFCC;
+    color: #333333;
+    border-radius: 10px;
+    font-size: 15px;
+ }
+
+
+/***********************************PROJECT****************************************/
+
+
+.card
+{
+	width: 10em;
+	height: 8em;
+	margin-left:100px;
+
+}
+
+
+
+.div-1-
+{
+	margin-top: 10px;
+	margin-left: 140px;
+}
+
+.div-2-
+{
+margin-left: 140px;
+margin-bottom: 20px;
+}
+
+
+.contener
+{
+
+	display:grid;
+    
+    grid-template-columns: 360px;
+	justify-content:
+margin:auto;
+
+}
+
+.image-projet,.image-projet-2
+{
+	width: 350px;
+	height: 200px;
+
+}
+
+.div2-contener,.div4-contener
+{
+	height: 100px;
+	background-color:#FFFF66;
+    font-size: 20px;
+    color: #0000FF;
+    text-align: center;
+    padding-top: 10px;
+   margin-bottom: 10px;
+}
+
+.div4-contener
+{
+	width:350px;
+}
+
+button
+{
+
+	border-radius: 5px;
+}
+
+
+.contener-2
+{
+
+   
+	display: grid;
+	grid-template-columns:360px;
+	justify-content: center;
+
+
+}
+
+.div1-contener-2
+{
+	height: 100px;
+	background-color:#FFFF66;
+    font-size: 20px;
+    color: #0000FF;
+    width:350px;
+	text-align: center;
+	
+}
+
+
+.div4-contener a:hover button,.div2-contener a:hover button,.div1-contener-2 a:hover button
+{
+
+background-color: pink;
+}
+
+/***********************************SKIIILLS****************************************/
+
+
+.contener-skills-1
+{
+	margin-left: 50px;
+	margin-top: 10px;
+	display: grid;
+	grid-template-columns: 150px 150px;
+}
+
+.skil:nth-child(10)
+{
+	
+	margin-left: 00px;
+}
+
+.skil:last-child
+{
+	margin-left: 60px;
+}
+
+
+.icone2
+{
+	position: relative;
+	top: 5px;
+	width:15px;
+	height:20px;
+	margin-right: 5px;
+}
+
+
+.skil
+{
+	width: 250px;
+	font-size: 20px;
+	margin-bottom: 60px;
+    color: #006633;
+}
+
+h3
+{
+color: blue;
+display: inline-flex;
+text-decoration: underline;
+margin-left: 10px;
+}
+
+.about-me-l1
+{
+	margin-left: 10px;
+	font-size: 20px;
+	height: 30px;
+}
+.about-me-l2
+{
+	
+	margin-left: 0px;
+	font-size: 20px;
+position: relative;
+	bottom:0px;
+
+}
+.about-me-l3
+{
+	margin-left: 0px;
+	position: relative;
+	bottom:0px;
+	font-size: 20px;
+}
+.about-me
+{
+	background-color: #99FF99;
+	border: solid 0.5px;
+	height: auto;
+width:350px;
+    
+}
+
+
+/***********************************CONTACT****************************************/
+
+
+
+.labell
+{
+	display: inline-block;
+	width: 100px;
+	margin-left: 20px;
+    font-size: 15px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+
+.labell-msg
+{
+	width: 100px;
+}
+
+
+.msg
+{
+	display:flex;
+	justify-content: center;
+	margin-top: 50px;
+
+}
+
+
+.inpt
+{
+	margin-right: 10px;
+	width: 150px;
+}
+
+
+textarea
+{
+	margin-bottom: 114px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+/**********************************************************************************/
+/***********************************TABLETTE****************************************/
+/**********************************************************************************/
+
+@media screen and (max-width:768px) and (min-width: 376px)
+{
+
+
+
+
+
+header
+{
+
+	display:flex;
+	justify-content: space-around;
+	width: 550px;
+	height: 6em;
+	background-color:#8CE3C4;
+	 padding-top: 5px;
+
+}
+header a {
+		
+		font-size: 20px;
+	    text-decoration: none;
+	   	height: 1em;
+	  color:white;
+	  margin:auto;
+}
+
+header a:hover
+{
+	color:blue;
+}
+
+ 
+
+/*************************FOOOTER*****************************************/
+
+
+
+ .links {
+        
+
+        list-style-type: none;
+        margin-left: -400px;
+       
+
+    }
+    .links a{
+        text-decoration: none;
+        
+        height: 35px;
+        width: 30px;
+        border-radius: 10px;
+        color: #8CE3C4;
+        background-color: black;
+        border-style: none;
+             }
+
+
+footer
+{
+	max-width: 550px;
+	height: 110px;
+	background-color:#8CE3C4;	
+	padding-top: 10px;
+	margin-top: 42px;
+
+}
+
+.div-1-footer,.div-2-footer
+{
+	margin-left: 90px;
+	font-weight: bold;
+	width: 300px;
+}
+
+
+/*************************INDEEX*****************************************/
+
+
+img{
+
+	width: 550px;
+	height: 450px;
+}
+
+ .button-cv
+ {
+ 	width: 100px;
+ 	height: 40px;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	margin-left: 220px;
+ 	margin-top: 25px;
+    font-weight: bold;
+    background-color: #00FFCC;
+    color: #333333;
+    border-radius: 10px;
+    font-size: 15px;
+ }
+
+
+
+/***********************************PROJECT****************************************/
+
+
+.card
+{
+	width: 10em;
+	height: 8em;
+	margin-left:170px;
+
+}
+
+
+
+.div-1-
+{
+	margin-top: 10px;
+	margin-left: 200px;
+}
+
+.div-2-
+{
+margin-left: 200px;
+margin-bottom: 20px;
+}
+
+
+.contener
+{
+
+	display:grid;
+
+    grid-template-columns: 300px 150px;
+  
+   
+
+}
+
+.image-projet ,.image-projet-2
+{
+	width: 300px;
+	height: 160px;
+   margin-left: -300px;
+}
+
+
+
+
+
+.div2-contener,.div4-contener
+{
+	height: 150px;
+	background-color:#FFFF66;
+    font-size: 17px;
+    color: #0000FF;
+    text-align: center;
+    padding-top: 10px;
+   margin-bottom: 10px;
+   width: 110px;
+  margin-left:-300px;
+}
+
+.contener-2
+{
+
+	display:grid;
+    grid-template-columns: 300px 150px;
+   
+
+
+}
+
+.div1-contener-2
+{
+	height: 150px;
+	background-color:#FFFF66;
+    font-size: 17px;
+    color: #0000FF;
+    text-align: center;
+    padding-top: 10px;
+   margin-bottom: 10px;
+   width: 110px;
+	margin-left: -300px;
+}
+
+
+.div4-contener a:hover button,.div2-contener a:hover button,.div1-contener-2 a:hover button
+{
+
+background-color: pink;
+}
+
+
+
+/***********************************SKIILLS****************************************/
+
+
+#div-skill
+{
+
+margin-left: -300px;
+font-size: 25px;
+margin-top: 25px;
+margin-bottom: 20px;
+
+}
+
+
+.contener-skills-1
+{
+	margin-left: 60px;
+	margin-top: 10px;
+	display: grid;
+	grid-template-columns: 180px 170px;
+
+}
+
+.skil:nth-child(10)
+{
+	margin-left: 20px;
+
+}
+
+.skil:last-child
+{
+	margin-left: 110px;
+	width: 190px;
+
+}
+
+
+.icone2
+{
+	position: relative;
+	top: 5px;
+	width:20px;
+	height:30px;
+	margin-right: 5px;
+}
+
+.skil
+{
+	width: 170px;
+	font-size: 30px;
+	margin-bottom: 60px;
+    color: #006633;
+ 
+  margin-left: 20px;
+}
+
+h3
+{
+color: blue;
+display: inline-flex;
+text-decoration: underline;
+margin-left: 10px;
+}
+
+.about-me-l1
+{
+	margin-left: 10px;
+	font-size: 15px;
+	height: 30px;
+}
+.about-me-l2
+{
+	
+	margin-left: 0px;
+	font-size: 15px;
+position: relative;
+	bottom:0px;
+
+}
+.about-me-l3
+{
+	margin-left: 0px;
+	position: relative;
+	bottom:0px;
+	font-size: 15px;
+}
+.about-me
+{
+	background-color: #99FF99;
+	border: solid 0.5px;
+	height: auto;
+width:500px;
+
+    margin-left: 2px;
+}
+
+
+
+/***********************************CONTACT****************************************/
+
+.div-contacter
+{
+	
+	font-size: 22px;
+	margin-top: 25px;
+	margin-left: -380px;
+}
+
+.labell
+{
+	display: inline-block;
+	width: 90px;
+	margin-left: 5px;
+    font-size: 15px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+
+}
+
+
+.labell-msg
+{
+	width: 90px;
+	margin-left: -760px;
+	margin-right: 40px;
+}
+
+
+.msg
+{
+	display:flex;
+	justify-content: center;
+	margin-top: 50px;
+
+}
+
+
+.inpt
+{
+	margin-right: 10px;
+	width: 150px;
+display:block;
+position: relative;
+bottom:40px;
+left: 150px;
+
+}
+
+
+textarea
+{
+	margin-bottom: 114px;
+}
+div
+{
+	margin-left: 360px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
